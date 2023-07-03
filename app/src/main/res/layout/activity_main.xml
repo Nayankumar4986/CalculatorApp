@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity"
+    android:background="@color/black"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/appuse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/num"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="112dp"
+        android:paddingTop="15dp"
+        android:text="0"
+        android:textAlignment="viewEnd"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/on"
+                android:textColor="@color/black"
+                android:text="ON"
+                style="@style/btn1"/>
+
+            <Button
+                android:textColor="@color/black"
+
+                android:id="@+id/n7"
+                android:text="7"
+                style="@style/btn2"/>
+
+            <Button
+                android:textColor="@color/black"
+
+                android:id="@+id/n4"
+                android:text="4"
+                style="@style/btn2"/>
+
+            <Button
+                android:textColor="@color/black"
+
+                android:id="@+id/n1"
+                android:text="1"
+                style="@style/btn2"/>
+
+            <Button
+                android:textColor="@color/black"
+
+                android:id="@+id/del"
+                android:text="DEL"
+                style="@style/btn1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/mod"
+                android:text="%"
+                style="@style/btn1"/>
+
+            <Button
+                android:textColor="@color/black"
+
+                android:id="@+id/n8"
+                android:text="8"
+                style="@style/btn2"/>
+
+            <Button
+                android:textColor="@color/black"
+
+                android:id="@+id/n5"
+                android:text="5"
+                style="@style/btn2"/>
+
+            <Button
+                android:textColor="@color/black"
+
+                android:id="@+id/n2"
+                android:text="2"
+                style="@style/btn2"/>
+
+            <Button
+                android:textColor="@color/black"
+                android:id="@+id/n0"
+                android:text="0"
+                style="@style/btn2"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+
+                android:id="@+id/ac"
+                android:text="AC"
+                style="@style/btn1"/>
+
+            <Button
+                android:textColor="@color/black"
+
+                android:id="@+id/n9"
+                android:text="9"
+                style="@style/btn2"/>
+
+            <Button
+                android:textColor="@color/black"
+
+                android:id="@+id/n6"
+                android:text="6"
+                style="@style/btn2"/>
+
+            <Button
+                android:textColor="@color/black"
+
+                android:id="@+id/n3"
+                android:text="3"
+                style="@style/btn2"/>
+
+            <Button
+                android:textColor="@color/black"
+
+                android:id="@+id/dot"
+                android:text="."
+                style="@style/btn2"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/div"
+                android:text="/"
+                style="@style/btn1"/>
+
+            <Button
+                android:id="@+id/mul"
+                android:text="x"
+                style="@style/btn1"/>
+
+            <Button
+                android:id="@+id/sub"
+                android:text="-"
+                style="@style/btn1"/>
+
+            <Button
+                android:id="@+id/add"
+                android:text="+"
+                style="@style/btn1"/>
+
+            <Button
+                android:textColor="@color/black"
+
+                android:id="@+id/equal"
+                android:text="="
+                style="@style/btn2"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
